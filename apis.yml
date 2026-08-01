@@ -1,8 +1,25 @@
 aid: skello
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skello.png
 name: Skello
-description: 'Skello is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Skello is a European (French) workforce management SaaS for shift-based
+  businesses in retail, hospitality, restaurants, and health. It provides employee
+  scheduling and shift planning, time and attendance tracking, absence and leave
+  management, labor-cost and legal-compliance controls, team communication, and
+  payroll preparation exports. Skello is a Partech portfolio company. As of this
+  enrichment pass Skello publishes no public developer API, developer portal, API
+  reference, OpenAPI, or status page; integrations are delivered through its own
+  partner program rather than a documented public API.'
 url: https://raw.githubusercontent.com/api-evangelist/skello/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
+- Workforce Management
+- Employee Scheduling
+- Time and Attendance
+- Human Resources
+- Shift Planning
+- Payroll
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://en.skello.io/
+  url: https://www.skello.io/en/
+- type: HelpCenter
+  url: https://help.skello.io/fr/
+- type: Support
+  url: https://www.skello.io/en/customer-support
+- type: TermsOfService
+  url: https://www.skello.io/en/landing/general-terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.skello.io/en/landing/privacy-policy
+- type: Security
+  url: https://www.skello.io/en/landing/faq-securite
+- type: DomainSecurity
+  url: security/skello-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
