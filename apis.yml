@@ -50,6 +50,7 @@ tags:
 - Human Resources
 - Shift Planning
 - Payroll
+- Scheduling
 tags_raw:
 - Company
 - Applicative SaaS
@@ -59,6 +60,7 @@ tags_raw:
 - Human Resources
 - Shift Planning
 - Payroll
+- Scheduling
 apis: []
 maintainers:
 - FN: Kin Lane
